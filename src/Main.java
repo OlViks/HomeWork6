@@ -21,5 +21,18 @@ public class Main {    public static void main(String[] args) {
         }else{
             System.out.println(+ year + " год не является високосным.");
         }
+        //Задание 4
+        int deliveryDistance = 95;
+        int deliveryDay = 1;
+        if (deliveryDistance >=0 && deliveryDistance <20) {
+            System.out.println("Потребуется дней: " + deliveryDay);
+        }else if (deliveryDistance >=20 && deliveryDistance <60) {
+            System.out.println("Потребуется дней: " + (deliveryDay + 1));
+        }else if (deliveryDistance >=60 && deliveryDistance <=100) {
+            System.out.println("Потребуется дней: " + (deliveryDay + 2));
+        }else{
+            System.out.println("Расcтояние слишком большое");
+        }
+
     }
 }
