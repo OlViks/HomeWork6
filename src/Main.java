@@ -15,7 +15,7 @@ public class Main {    public static void main(String[] args) {
             System.out.println("Установите версию приложения для Android по ссылке.");
         }
         //Задание 3
-        int year = 700;
+        int year = 1400;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
             System.out.println(+ year + " год является високосным. ");
         }else{
